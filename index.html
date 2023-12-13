@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<!-- Основной контент -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pics on click</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  </head>
+  <body>
+    <!-- Основной контент -->
     <header class="header" id="header">
-        <div class="container">
-            <div class="nav">
-                <div class="nav__logo">
-                    <img src="/img/logo.svg" alt="Logo">
-                </div>
-                <div class="nav__title">
-                    Картинки по щелчку
-                </div>
-                <div class="nav__phone">
-                    <img src="/img/icn_phone.svg" alt="icon phone">
-                    <a href="tel:+79999875432" class="nav__tel">+7(999)987 - 54 - 32</a>
-                </div>
-            </div>
-            <div class="offer">
-                <h1 class="offer__title">
-                    Constraints Закрепление материала
-                </h1>
-                <p class="offer__text">
-                    Так же в этом макете закрепляются навыки работы с модульной сеткой
-                </p>
-                <button class="offer__btn">Кнопка</button>
-            </div>
+      <div class="container">
+        <div class="nav">
+          <div class="nav__logo">
+            <img src="/img/logo.svg" alt="Logo" />
+          </div>
+          <div class="nav__title">Картинки по щелчку</div>
+          <div class="nav__phone">
+            <img src="/img/icn_phone.svg" alt="icon phone" />
+            <a href="tel:+79999875432" class="nav__tel">+7(999)987 - 54 - 32</a>
+          </div>
         </div>
+        <div class="content">
+          <div class="content__offer">
+            <h1 class="content__title">Constraints Закрепление материала</h1>
+            <p class="content__text">
+              Так же в этом макете закрепляются навыки работы с модульной сеткой
+            </p>
+            <button class="content__btn">Кнопка</button>
+          </div>
+          <div class="content__img"></div>
+        </div>
+      </div>
     </header>
-<!-- разделительная линия -->
+    <!-- разделительная линия -->
     <div class="line"></div>
 
-<!-- Футер -->
+    <!-- Футер -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer__text">
-                Нажимай на кнопки и меняй тему оформления
-            </div>
-            <div class="footer__buttons">
-                <ul class="footer__buttons-items">
-                    <li class="footer__buttons-items footer__buttons-items_purple"></li>
-                    <li class="footer__buttons-items footer__buttons-items_orange"></li>
-                    <li class="footer__buttons-items footer__buttons-items_green"></li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer__text">
+            Нажимай на кнопки и меняй тему оформления
+          </div>
+          <ul class="footer__buttons-items">
+            <li class="footer__buttons-item footer__buttons-item_purple"></li>
+            <li class="footer__buttons-item footer__buttons-item_orange"></li>
+            <li class="footer__buttons-item footer__buttons-item_green"></li>
+          </ul>
         </div>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

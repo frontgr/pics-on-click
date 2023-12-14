@@ -70,7 +70,7 @@ a {
   width: 584px;
   height: 353px;
   border-radius: 7px;
-  background: url(/img/img_purple.jpg);
+  background: url(../img/img_purple.jpg);
   background-size: cover;
 }
 
@@ -123,13 +123,13 @@ a {
 }
 
 .footer__buttons-item_purple {
-  background: #BE8AFF;
+  background: #be8aff;
 }
 
 .footer__buttons-item_orange {
-  background: #FFB48A;
+  background: #ffb48a;
 }
 
 .footer__buttons-item_green {
-  background: #99DFBE;
+  background: #99dfbe;
 }

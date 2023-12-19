@@ -92,7 +92,7 @@ a {
 }
 
 .content__btn:hover {
-  cursor: url(/img/cursor.png), pointer;
+  cursor: url("../img/cursor.png"), pointer;
   box-shadow: 0px 4px 10px 0px #9747ff;
 }
 
@@ -130,7 +130,7 @@ a {
 }
 
 .footer__buttons-item:hover {
-  cursor: url(/img/cursor.png), pointer;
+  cursor: url("../img/cursor.png"), pointer;
   opacity: 0.7;
 }
 

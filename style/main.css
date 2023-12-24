@@ -15,6 +15,63 @@ a {
   text-decoration: none;
 }
 
+button:hover {
+  cursor: url("../img/cursor.png"), pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.popup__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: opacity 100ms ease-in-out 200ms;
+}
+
+.popup__content {
+  position: relative;
+  margin: 0 auto;
+  top: 25%;
+  width: 611px;
+  height: 378px;
+}
+
+.popup__fill {
+  position: absolute;
+  bottom: 0;
+  width: 579px;
+  height: 350px;
+  background: #fff;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 7px;
+}
+
+.popup__text {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.popup__close {
+  float: right;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 42px;
+  border-style: none;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;

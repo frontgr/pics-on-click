@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <link rel="stylesheet" href="style/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +17,23 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
   </head>
   <body>
+    <!-- Поп-ап -->
+    <div class="popup" id="popup">
+      <div class="popup__overlay"></div>
+      <div class="popup__content">
+        <button class="popup__close">
+          <img src="/img/close_icn.svg" alt="" />
+        </button>
+        <div class="popup__fill">
+          <img
+            src="/img/popup_img.png"
+            alt="Слон на унитазе"
+            class="popup__img"
+          />
+          <p class="popup__text">Занято!</p>
+        </div>
+      </div>
+    </div>
     <!-- Основной контент -->
     <header class="header" id="header">
       <div class="container">

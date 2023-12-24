@@ -22,4 +22,4 @@ We use Prettier for formatting our text. See more about our configuration [here]
 
 ---
 
-Project has [MIT License](https://github.com/frontgr/funhaus/blob/main/LICENSE).
+Project has [MIT License](https://github.com/frontgr/pics-on-click/blob/main/LICENSE).

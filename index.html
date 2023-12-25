@@ -53,9 +53,16 @@
             <p class="content__text">
               Так же в этом макете закрепляются навыки работы с модульной сеткой
             </p>
-            <button class="content__btn">Кнопка</button>
+            <button class="content__btn" id="my-button">Кнопка</button>
           </div>
-          <div class="content__img"></div>
+          <div class="content__img">
+            <img
+              id="image"
+              class="img-change"
+              src="/img/image-1.jpg"
+              alt="Фото"
+            />
+          </div>
         </div>
       </div>
     </header>
@@ -71,17 +78,22 @@
           </div>
           <ul class="footer__buttons-items">
             <button
+              data-image="0"
               class="footer__buttons-item footer__buttons-item_orange"
             ></button>
             <button
+              data-image="1"
               class="footer__buttons-item footer__buttons-item_green"
             ></button>
             <button
+              data-image="2"
               class="footer__buttons-item footer__buttons-item_purple"
             ></button>
           </ul>
         </div>
       </div>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

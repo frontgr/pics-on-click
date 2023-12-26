@@ -71,7 +71,7 @@ button:hover {
 @media (min-width: 350px) {
   .popup__fill {
     left: 24px;
-    width: 282px;
+    width: 312px;
   }
 }
 

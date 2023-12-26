@@ -55,11 +55,12 @@ button:hover {
   background: #fff;
   text-align: center;
   padding-top: 5px;
-  border-radius: 7px;
+  border-radius: 10px;
   z-index: 50;
 }
 @media (min-width: 320px) {
   .popup__fill {
+    top: 38px;
     left: 37px;
     width: 300px;
   }
@@ -70,7 +71,7 @@ button:hover {
 @media (min-width: 350px) {
   .popup__fill {
     left: 24px;
-    width: 300px;
+    width: 282px;
   }
 }
 
@@ -148,6 +149,7 @@ button:hover {
 }
 
 .img-change {
+  border-radius: 10px;
   max-width: 100%;
 }
 

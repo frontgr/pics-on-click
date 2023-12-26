@@ -20,7 +20,7 @@ button:hover {
 }
 
 .popup {
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -29,7 +29,7 @@ button:hover {
 }
 
 .popup__overlay {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;

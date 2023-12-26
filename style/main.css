@@ -16,7 +16,7 @@ a {
 }
 
 button:hover {
-  cursor: url("../img/cursor.png"), pointer;
+  cursor: url("../img/cursor.webp"), pointer;
 }
 
 .popup {

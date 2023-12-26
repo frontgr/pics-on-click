@@ -14,7 +14,7 @@ myButton.addEventListener("click", openPopup);
 closeButton.addEventListener("click", closePopup);
 // !============================pop up
 
-// !============================multi btn
+// !============================cnange color func
 document.addEventListener("DOMContentLoaded", function () {
   const imageElement = document.getElementById("image");
   const buttons = document.querySelectorAll(".footer__buttons-item");
@@ -34,4 +34,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-// !============================multi btn
+// !============================cnange color func

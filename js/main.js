@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const contentBtn = document.querySelector(".content__btn");
 
   function changeTheme(imageIndex, buttonColor) {
-    const newImageSrc = `../img/img-${imageIndex}.jpg`;
+    const newImageSrc = `img/img-${imageIndex}.jpg`;
     imageElement.src = newImageSrc;
     contentBtn.style.backgroundColor = buttonColor;
   }

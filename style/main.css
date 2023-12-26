@@ -57,6 +57,21 @@ button:hover {
   padding-top: 5px;
   border-radius: 7px;
 }
+@media (min-width: 320px) {
+  .popup__fill {
+    left: 37px;
+    width: 300px;
+  }
+  .popup__content {
+    width: 340px;
+  }
+}
+@media (min-width: 350px) {
+  .popup__fill {
+    left: 24px;
+    width: 300px;
+  }
+}
 
 .popup__text {
   font-size: 36px;
@@ -254,6 +269,16 @@ button:hover {
   }
   .content__offer {
     width: 100%;
+  }
+  @media (min-width: 320px) {
+    .content__offer {
+      margin-top: 3.5em;
+    }
+  }
+  @media (min-width: 768px) {
+    .content__offer {
+      margin-top: 7.5em;
+    }
   }
 
   .content__img {

@@ -94,7 +94,9 @@ button:hover {
   border-radius: 42px;
   border-style: none;
 }
-
+.popup__close:hover {
+  cursor: url("../img/cursor.webp"), auto;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -177,7 +179,7 @@ button:hover {
 }
 
 .content__btn:hover {
-  cursor: url("../img/cursor.png"), pointer;
+  cursor: url("../img/cursor.webp"), pointer;
   box-shadow: 0px 4px 10px 0px #9747ff;
 }
 
@@ -216,7 +218,7 @@ button:hover {
 }
 
 .footer__buttons-item:hover {
-  cursor: url("../img/cursor.png"), pointer;
+  cursor: url("../img/cursor.webp"), pointer;
   opacity: 0.7;
 }
 

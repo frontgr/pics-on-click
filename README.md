@@ -12,7 +12,20 @@ Link to Figma layout is [here](https://www.figma.com/file/P4nYNKO5xOtYrKl5RYx4pW
 ### Technologies Used
 
 1. BEM notation
-2. CSS
+2. Docker
+3. Vanilia JS
+
+---
+
+### How to run Docker
+
+You should clone the repository, install Docker and run this command in the same directory:
+
+  ```bash
+  docker-compose up --build
+  ```
+
+You can read more about Docker [here](https://frontgr.github.io/docs/docker/docker/).
 
 ---
 
